@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-image: url(checkered.jpg); 
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 200px;
+    background-size:1600px;
+    background-image: url(pexels-photo-1640773.jpeg);
+    background-blend-mode: darken;
+}
+
+header> h1 {
+    font-family: 'Arial', sans-serif;
+      font-size: 3rem; 
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+      transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display:inline-block;
+    padding: 10px;
+}
+  
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(224, 150, 93); 
+}
+
+nav a:hover::after {
+    width: 100%; 
+  }
+  
+nav a.active::after {
+    width: 100%; 
+  }
+  
+nav ul li a {
+    text-decoration: none;
+    color: #0c0b0b;
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    margin: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#Menu {
+    align-content:center; 
+}
+
+
+.menu-item img {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+.menu-item {
+    height: 300px;
+    width: 300px;
+}
+
+.menu-item h2 {
+    margin-top: 15px;
+    font-size: larger;
+    object-position: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 0px;
+    font-size:medium;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color:#626262; 
+    border-top: black;
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-display: center;
+  }
